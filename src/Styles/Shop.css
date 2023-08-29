@@ -1,0 +1,40 @@
+.mainheader{
+    display: flex;
+    justify-content: center;
+}
+.main .icon{
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    font-size: 2vw;
+}
+.category{
+    width: 15rem;
+    padding: 1rem;
+}
+.card{
+    width: 15vw;
+}
+.main2{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 14rem;
+}
+.card-img-top{
+    height: 25vh;
+}
+.card-header{
+    height: 15vh;
+}
+.main{
+    height: 700px;
+    overflow: auto;
+    position: relative;
+}
+.badge{
+    font-size: .9rem;
+    margin-top: -5px;
+}
+.icon:hover{
+    cursor: pointer;
+}

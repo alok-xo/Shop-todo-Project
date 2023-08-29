@@ -1,0 +1,15 @@
+nav ol{
+    list-style: none;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;    
+    padding: 1rem 0rem;
+}
+nav li:hover{
+    cursor: pointer;
+}
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+}

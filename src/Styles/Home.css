@@ -1,0 +1,26 @@
+#main {
+    height: 86vh;
+    width: 100%;
+}
+
+
+#main h1 {
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+#main h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    font-size: 2.4rem;
+}
+#main .para{
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    margin-top: 1rem;
+}
+#main .ko{
+    font-size: 2.3rem;
+}

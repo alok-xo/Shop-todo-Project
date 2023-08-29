@@ -1,0 +1,122 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  } */
+  
+  body {
+    /* background-color: #111; */
+    /* color: #fff; */
+    overflow: hidden;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .main-todo {
+    background-color: #313131;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .input-todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 2rem;
+  }
+  
+  .input-item input {
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    width: 20vw;
+  }
+  
+  .input-item input:focus {
+    outline: none;
+  }
+  
+  .addBtn,
+  .btn2 {
+    background-color: #706fd3;
+    padding: 1rem 2rem;
+    margin-top: 5.4vh;
+    border: none;
+    border-radius: .5rem;
+    transition: .3s;
+    right: 0;
+  }
+  
+  .btn2 {
+    background-color: gray;
+    color: #fff;
+    /* padding: 1rem 2rem; */
+    margin-top: 5.4vh;
+    border: none;
+    border-radius: .5rem;
+    transition: .3s;
+  }
+  
+  .addBtn:hover {
+    opacity: .8;
+    cursor: pointer;
+  }
+  
+  .done-btns {
+    position: relative;
+  }
+  
+  .active {
+    background-color: #706fd3;
+  }
+  
+  .all-todo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .todo-item {
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    /* margin-bottom: 1rem; */
+    align-items: center;
+    margin-top: 1.5rem;
+    border-radius: .5rem;
+  }
+  .icon i{
+    margin-left: 1rem;
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+  
+  .icon{
+    position: relative;
+  }
+
+  h3{
+    color: #fff;
+  }
